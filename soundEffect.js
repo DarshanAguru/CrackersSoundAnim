@@ -38,7 +38,7 @@ function draw() {
   var vol = amp.getLevel();
   volhistory.push(vol);
   stroke(255);
-  strokeWeight(2);
+  strokeWeight(4);
   noFill();
    
   translate(width/2, height/2);
